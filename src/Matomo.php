@@ -3196,7 +3196,7 @@ class Matomo
      */
     public function getAdvancedCampaignReportingName($segment = '', array $optional = [])
     {
-        return $this->_request('AdvancedCampaignReporting.getName', [
+        return $this->_request('MarketingCampaignsReporting.getName', [
             'segment' => $segment,
         ], $optional);
     }
@@ -3212,7 +3212,7 @@ class Matomo
      */
     public function getAdvancedCampaignReportingKeywordContentFromNameId($segment = '', array $optional = [])
     {
-        return $this->_request('AdvancedCampaignReporting.getKeywordContentFromNameId', [
+        return $this->_request('MarketingCampaignsReporting.getKeywordContentFromNameId', [
             'segment' => $segment
         ], $optional);
     }
@@ -3228,7 +3228,7 @@ class Matomo
      */
     public function getAdvancedCampaignReportingKeyword($segment = '', array $optional = [])
     {
-        return $this->_request('AdvancedCampaignReporting.getKeyword', [
+        return $this->_request('MarketingCampaignsReporting.getKeyword', [
             'segment' => $segment
         ], $optional);
     }
@@ -3244,7 +3244,7 @@ class Matomo
      */
     public function getAdvancedCampaignReportingSource($segment = '', array $optional = [])
     {
-        return $this->_request('AdvancedCampaignReporting.getSource', [
+        return $this->_request('MarketingCampaignsReporting.getSource', [
             'segment' => $segment
         ], $optional);
     }
@@ -3260,7 +3260,7 @@ class Matomo
      */
     public function getAdvancedCampaignReportingMedium($segment = '', array $optional = [])
     {
-        return $this->_request('AdvancedCampaignReporting.getMedium', [
+        return $this->_request('MarketingCampaignsReporting.getMedium', [
             'segment' => $segment
         ], $optional);
     }
@@ -3276,7 +3276,7 @@ class Matomo
      */
     public function getAdvancedCampaignReportingContent($segment = '', array $optional = [])
     {
-        return $this->_request('AdvancedCampaignReporting.getContent', [
+        return $this->_request('MarketingCampaignsReporting.getContent', [
             'segment' => $segment
         ], $optional);
     }
@@ -3292,7 +3292,7 @@ class Matomo
      */
     public function getAdvancedCampaignReportingSourceMedium($segment = '', array $optional = [])
     {
-        return $this->_request('AdvancedCampaignReporting.getSourceMedium', [
+        return $this->_request('MarketingCampaignsReporting.getSourceMedium', [
             'segment' => $segment
         ], $optional);
     }
@@ -3309,7 +3309,7 @@ class Matomo
      */
     public function getAdvancedCampaignReportingNameFromSourceMediumId($idSubtable, $segment = '', array $optional = [])
     {
-        return $this->_request('AdvancedCampaignReporting.getNameFromSourceMediumId', [
+        return $this->_request('MarketingCampaignsReporting.getNameFromSourceMediumId', [
             'idSubtable' => $idSubtable,
             'segment' => $segment
         ], $optional);
